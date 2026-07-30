@@ -18,7 +18,7 @@
 //! ```
 use bevy::diagnostic::{DiagnosticsStore, FrameTimeDiagnosticsPlugin};
 use bevy::prelude::*;
-use bevy::render::view::Hdr;
+use bevy::camera::Hdr;
 #[cfg(feature = "debug")]
 use bevy_egui::EguiPlugin;
 use bevy_stratus::CloudsPlugin;
